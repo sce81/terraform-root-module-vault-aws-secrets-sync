@@ -1,0 +1,1 @@
+# terraform-root-module-vault-aws-secrets-sync
