@@ -5,7 +5,7 @@ module "mount-kvv2" {
 }
 
 module "sync_destination" {
-  source   = "app.terraform.io/YOURORG/secret-sync-destination/vault"
+  source   = "app.terraform.io/HashiCorp_AWS_Org/secret-sync-destination/vault"
   version  = "1.0.0"
   name     = var.name
   env      = var.env
